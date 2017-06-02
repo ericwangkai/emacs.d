@@ -159,6 +159,16 @@
   (add-hook 'after-init-hook (lambda () (require 'uptimes))))
 
 
+;;--------------------
+;; Show relative line numbers
+;;--------------------
+(require 'init-linumb)
+(require 'init-ein)
+(require 'init-icons)
+(require 'init-neotree)
+
+
+
 (provide 'init)
 
 ;; Local Variables:
